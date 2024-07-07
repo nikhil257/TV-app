@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background: url(/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Gilroy;
+    color:white;
+    overflow: hidden;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background : linear-gradient(to right , rgb(0, 0, 0) , rgba(0, 0, 0, 0.64) ,rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0))
+}
+nav{
+    width: 100%;
+    height: 10%;
+    padding:0px 50px;
+    display: flex;
+    align-items: center;
+    gap:90px;
+    color:white;
+
+}
+.middleNav{
+    width:50%;
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+.middleNav a{
+    text-decoration: none;
+    color: white;
+}
+.content{
+    width: 100%;
+    height: 90%;
+    padding: 10px 50px;
+    margin-top :10px;
+}
+.head{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.head h1{
+    font-size:120px;
+    font-weight: 900;
+    font-family: bebas neue;
+    line-height:110px;
+    text-shadow: 2px 2px 8px black;
+}
+.head section{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    font-size:14px;
+    padding-bottom:10px;
+}
+.head section img{
+    width: 50px;
+    height: 32px;
+    object-fit: cover;
+    object-position: center;
+}
+.btn button{
+    padding:7px 15px;
+    font-family: gilroy;
+    font-weight:500;
+    border:1px solid white;
+    background:black;
+    color:white;
+    border-radius: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size:14px;
+}
+.btn button:first-child{
+    background-color: rgb(217, 12, 12);
+    color:white;
+    border: 1px solid rgb(135, 5, 5);
+}
+.popular{
+    width: 100%;
+    height: 44%;
+    margin-top:35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:13px
+}
+.container{
+    width:25vw;
+    height: 90%;
+    background-color: antiquewhite;
+    border: 1px solid rgb(142, 142, 142);
+   box-shadow: 5px 5px 10px black;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
